@@ -11,10 +11,11 @@ public class Main {
 //        to see if there guess was close to the secret number
 //        need to make if/else statments for if the number is too high, too low or if
 //        the user got the correct number
+//        I will set the secret number to be 38.
         if(secretNumber > 38) {
-            System.out.println("your guess is too high");
+            System.out.println("Your guess is too high! Try again.");
         } else if (secretNumber < 38) {
-            System.out.println("your guess is too low");
+            System.out.println("Your guess is too low! Try again");
         } else {
             System.out.println("Well done! You have guessed the statement correctly!");
         }
